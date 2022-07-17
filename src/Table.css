@@ -1,0 +1,38 @@
+.Table{
+    width:100%;
+    height:100%;
+    border:none; 
+    border-collapse: separate;
+    border-spacing:1;
+    border-bottom:1px solid black;
+}
+thead{
+
+ background-color: grey;
+}
+tbody{
+    
+
+    background-color: rgb(215, 219, 223);
+    transition: background-color 0.15s;
+   
+}
+:hover{
+    background-color: rgba(0,0,0,0.04);
+}
+th{
+    padding:20px 23px;
+    border-bottom:1px solid black;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+tr
+{
+    
+    height:40px;
+    width:50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
